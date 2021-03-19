@@ -24,9 +24,17 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
+    I would descirbe web accessibility as designing your website to be as user friendly to as a wide of a pool of people as possible. Many websites are designed and coded for everyday users, but they do not take into account the various potential needs of many differnt kinds of people (such as those who are deaf, blind, have poor vision, elderly, etc.). It is important to not just think about ourselves and what we like when creating a website, but also what many different groups of people may want, like, and even NEED to have your website be accessible to them. 
+
+2. Talk about 3 different things you can do to ensure your website is accessible.
+    Three different things you can do to make sure your website is accessible are:
+        - adding media queries for responsive web design. Not everyone trying to access your site has the privilege of owning or having access to a computer. Some people may only have a smartphone. For this reason it is important to make sur ethat your website works across multiple devices and looks good on multiple potential computer screen sizes (using percentages in your css).
+        - Making sure that font size is easily adjustable for people who have sight issues.
+        - making sure that your sight can be zoomed easily without much trouble, also for people who are hard of seeing
 3. How would you explain the concept of a variable to someone new to programming?
+    the concept of a variable in programing can be best defined as a storage location or name given for a certain assigned value to said variable. Such as with 'const numOne = 1;', numOne is the variable and 1 is the assigned value to the variable numOne. So now numOne carries the meaning of 1. Anything can be assigned as a value to a variable(a function, object, number, string, etc.). variables can be declare in different ways in different languages (such as const, var, let in javaScript or by simply declaring a variable without pretext and assigning it a value in Python) 
 4. What is the purpose of using functions in code?
+    Functions in code act as mini programs themselves. They are written with parameters and then use those paramaters (arguments given when the function is invoked) to plug into the function and do the task that they are coded to do. An example of this would be an addition function with the parameters(numOne, numTwo) that then plugs those two numbers (passed as arguments at the invocation of the function) into the funciton and adds them together using the code you would have written in your function (like return numOne + numTwo). The purpose of functions is to reuse the tasks they preform when needed without retyping all the code that it takes to make them run. plugging numbers into a calculator to quikcly add them is much easier than programming a calculator yourself everytime you need to add two numbers in otherwords.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -48,8 +56,8 @@ NOTE: Tests will run for the JavaScript portion of this challenge only
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Add a viewport meta tag to the head of your index.html page.
-* [ ] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
+* [x] Add a viewport meta tag to the head of your index.html page.
+* [x] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
